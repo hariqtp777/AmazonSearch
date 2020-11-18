@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="84735" started-at="2020-11-18T18:32:46Z" finished-at="2020-11-18T18:34:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="84735" started-at="2020-11-18T18:32:46Z" finished-at="2020-11-18T18:34:11Z">
+      <class name="com.btb.hybrid.amazon.AmazonSearch">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.btb.hybrid.amazon.AmazonSearch@192b07fd]" name="init" is-config="true" duration-ms="797" started-at="2020-11-18T18:32:46Z" finished-at="2020-11-18T18:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="initReport()[pri:0, instance:com.btb.hybrid.amazon.AmazonSearch@192b07fd]" name="initReport" is-config="true" duration-ms="152" started-at="2020-11-18T18:32:47Z" finished-at="2020-11-18T18:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="PASS" signature="searchInAmazon(java.util.Hashtable)[pri:0, instance:com.btb.hybrid.amazon.AmazonSearch@192b07fd]" name="searchInAmazon" duration-ms="83084" started-at="2020-11-18T18:32:47Z" data-provider="getData" finished-at="2020-11-18T18:34:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchVal=Headphone, RunMode=Y, Max_Price=20000, Brand=SONY, Min_Price=5000, Browser=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchInAmazon -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.btb.hybrid.amazon.AmazonSearch@192b07fd]" name="quit" is-config="true" duration-ms="671" started-at="2020-11-18T18:34:11Z" finished-at="2020-11-18T18:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.btb.hybrid.amazon.AmazonSearch -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

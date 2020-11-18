@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Amazon - Regression Suite">
+	<test name="Search HeadPhone">
+		<classes>
+			<class name="com.btb.hybrid.amazon.AmazonSearch"></class>
+		</classes>
+	</test>
+</suite>
